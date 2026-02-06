@@ -42,7 +42,7 @@ export default function SignUp({ message, deviceId}: SignUpProps) {
   return success ? <LoginSuccess />
   :       
   (
-    <div className="flex flex-col items-center justify-center h-full p-6 bg-gradient-to-b from-blue-50 to-white rounded-lg shadow-lg text-center space-y-6">
+    <div className="flex flex-col items-center justify-center h-full p-6 bg-linear-to-b from-blue-50 to-white rounded-lg shadow-lg text-center space-y-6">
        <div className="mb-4">
         {/* logo */}
         <Logo className="w-13 h-5"/>
