@@ -9,5 +9,5 @@
     "skipLibCheck": true,
     "strict": true
   },
-  "include": ["lib", "lib/code.ts"] // make sure your plugin file is covered
+  "include": ["lib", "lib/code.ts", "utils/getOrCreateDeviceId.ts"] // make sure your plugin file is covered
 }
